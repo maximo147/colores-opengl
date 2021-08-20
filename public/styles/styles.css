@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 30px 0px;
+    color: rgba(56, 145, 166, 0.9);
+    font-weight: 500;
+}
+
+.inputs{
+    
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.containerInputs{
+    
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+}
+
+.item{
+    width: 33%;
+}
+
+.item > input{
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 60%;
+}
+
+
+.boton{
+    width: 100%;
+    background: rgba(30, 34, 146, 0.9);
+    box-shadow: 2px 2px 0.1px black;
+    padding: 5px 0px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    margin-top: 50px;
+}
+
+.boton:hover{
+    background: rgba(30, 34, 146, 0.8);
+}
+
+.caja{
+    width: 50%;
+    border: 0px;
+    background: rgba(56, 145, 166, 0.2);
+    
+}
+
+.containerfooter{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.colors{
+    margin-rigth: 10px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#caja{
+    width: 140px;
+    /* border: 2px solid black; 
+    border: 2px solid rgba(19, 30, 33, 0.9); */
+    border-radius: 50%;
+}
+
+#caja-color{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.containerResponse{
+    width: 100%;
+    
+}
+
+.response{
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+
+    text-align: center;
+    border: 1px solid rgba(202, 60, 37, 0.9);
+    border-radius: 30px;
+    padding: 10px;
+}
+.opcion{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hex{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgba(202, 60, 37, 0.9);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
